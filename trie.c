@@ -3,6 +3,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+/** 
+* @brief Adding fake documentation to keep playing with github.
+* 
+* @param trie 
+* @param word 
+* 
+* @return 
+*/
 int add_word(trieNode* trie, char* word){
 	int i, j, length = strlen(word);
 	if(trie->letter){
